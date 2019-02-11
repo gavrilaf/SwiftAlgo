@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SwiftAlgo::GraphRunner"
+               BuildableName = "GraphRunner"
+               BlueprintName = "GraphRunner"
+               ReferencedContainer = "container:SwiftAlgo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "SwiftAlgo::PerfTest"
                BuildableName = "PerfTest"
                BlueprintName = "PerfTest"
@@ -69,9 +83,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "SwiftAlgo::PerfTest"
-            BuildableName = "PerfTest"
-            BlueprintName = "PerfTest"
+            BlueprintIdentifier = "SwiftAlgo::GraphRunner"
+            BuildableName = "GraphRunner"
+            BlueprintName = "GraphRunner"
             ReferencedContainer = "container:SwiftAlgo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
