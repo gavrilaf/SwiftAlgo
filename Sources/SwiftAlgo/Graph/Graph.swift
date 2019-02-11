@@ -51,6 +51,16 @@ public class Graph<V: VertexProtocol, E: EdgeProtocol> {
     var nodes = NodesDict()
 }
 
+extension Graph {
+    public func bfs(start: V) -> BFS<V, E> {
+        return BFS(graph: self, start: start)
+    }
+    
+    public func dfs(start: V) -> DFS<V, E> {
+        return DFS(graph: self, start: start)
+    }
+}
+
 // MARK: -
 extension Int: VertexProtocol {}
 
