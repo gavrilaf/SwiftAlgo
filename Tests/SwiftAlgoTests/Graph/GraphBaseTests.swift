@@ -52,6 +52,14 @@ final class GraphBaseTests: XCTestCase {
         XCTAssertEqual(nodes, expected)
     }
     
+    func testEquality() {
+        let gr1 = StaticEdgeGraph<Int>(edges: [(1, 2), (1, 3), (2, 4), (3, 4)])
+        let gr2 = StaticEdgeGraph<Int>(edges: [(1, 2), (1, 3), (2, 4), (4, 2)])
+        
+        XCTAssertEqual(subject, gr1)
+        XCTAssertNotEqual(subject, gr2)
+    }
+    
     static var allTests = [
         ("testGetFirstNode", testGetFirstNode),
         ("testGetAllNodes", testGetAllNodes),

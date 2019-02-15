@@ -27,9 +27,14 @@ public class Node<V: VertexProtocol, E: EdgeProtocol> {
         edges.append(Edge(edge: edge, end: node))
     }
     
-    struct Edge {
+    struct Edge: Hashable {
         let edge: E
         let end: Node
+        
+        public func hash(into hasher: inout Hasher) {
+            hasher.combine(end.vertex)
+            hasher.combine(edge)
+        }
     }
     
     // MARK:
@@ -43,8 +48,14 @@ extension Node: Hashable {
 }
 
 extension Node: Equatable {
-    public static func ==(lhs: Node, rhs: Node) -> Bool {
-        return lhs.vertex == rhs.vertex
+    public static func == (lhs: Node<V, E>, rhs: Node<V, E>) -> Bool {
+        if lhs.vertex == rhs.vertex {
+            let lhsEdges = Set<Int>(lhs.edges.map { return $0.hashValue })
+            let rhsEdges = Set<Int>(rhs.edges.map { return $0.hashValue })
+            return lhsEdges == rhsEdges
+        }
+        
+        return false
     }
 }
 

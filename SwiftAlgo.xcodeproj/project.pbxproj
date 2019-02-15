@@ -28,6 +28,10 @@
 		463318C22211579E0017B474 /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463318C12211579E0017B474 /* StackTests.swift */; };
 		463318C4221157B60017B474 /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463318C3221157B60017B474 /* QueueTests.swift */; };
 		463318C6221161630017B474 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463318C5221161630017B474 /* Queue.swift */; };
+		466823112217504500D954A9 /* Transformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466823102217504500D954A9 /* Transformation.swift */; };
+		46682313221751BA00D954A9 /* GraphTransformationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46682312221751BA00D954A9 /* GraphTransformationTests.swift */; };
+		469CCAA622169A41003E7857 /* SCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469CCAA522169A41003E7857 /* SCC.swift */; };
+		469CCAA822169A6C003E7857 /* GraphSCCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469CCAA722169A6C003E7857 /* GraphSCCTests.swift */; };
 		46E9DDFD2211C8B7002A93EE /* Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E9DDFC2211C8B7002A93EE /* Traversal.swift */; };
 		OBJ_100 /* SwiftPerfTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* SwiftPerfTool.swift */; };
 		OBJ_107 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Package.swift */; };
@@ -96,6 +100,10 @@
 		463318C12211579E0017B474 /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
 		463318C3221157B60017B474 /* QueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
 		463318C5221161630017B474 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		466823102217504500D954A9 /* Transformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transformation.swift; sourceTree = "<group>"; };
+		46682312221751BA00D954A9 /* GraphTransformationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphTransformationTests.swift; sourceTree = "<group>"; };
+		469CCAA522169A41003E7857 /* SCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCC.swift; sourceTree = "<group>"; };
+		469CCAA722169A6C003E7857 /* GraphSCCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphSCCTests.swift; sourceTree = "<group>"; };
 		46E9DDFC2211C8B7002A93EE /* Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traversal.swift; sourceTree = "<group>"; };
 		OBJ_11 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		OBJ_14 /* Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge.swift; sourceTree = "<group>"; };
@@ -170,6 +178,8 @@
 				463318B6220EBB420017B474 /* Graph.swift */,
 				463318B8220EBC680017B474 /* Node.swift */,
 				46E9DDFC2211C8B7002A93EE /* Traversal.swift */,
+				469CCAA522169A41003E7857 /* SCC.swift */,
+				466823102217504500D954A9 /* Transformation.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -178,6 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				463318BB220EC1D00017B474 /* GraphBaseTests.swift */,
+				469CCAA722169A6C003E7857 /* GraphSCCTests.swift */,
+				46682312221751BA00D954A9 /* GraphTransformationTests.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -514,8 +526,10 @@
 				463318BF22105DBF0017B474 /* Stack.swift in Sources */,
 				OBJ_66 /* Merge.swift in Sources */,
 				46E9DDFD2211C8B7002A93EE /* Traversal.swift in Sources */,
+				469CCAA622169A41003E7857 /* SCC.swift in Sources */,
 				OBJ_67 /* Quick.swift in Sources */,
 				463318B9220EBC680017B474 /* Node.swift in Sources */,
+				466823112217504500D954A9 /* Transformation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,7 +548,9 @@
 				463318BC220EC1D00017B474 /* GraphBaseTests.swift in Sources */,
 				OBJ_85 /* MergeSortTests.swift in Sources */,
 				463318C22211579E0017B474 /* StackTests.swift in Sources */,
+				46682313221751BA00D954A9 /* GraphTransformationTests.swift in Sources */,
 				OBJ_86 /* QuickSortTests.swift in Sources */,
+				469CCAA822169A6C003E7857 /* GraphSCCTests.swift in Sources */,
 				OBJ_87 /* TestCases.swift in Sources */,
 				463318C4221157B60017B474 /* QueueTests.swift in Sources */,
 				OBJ_88 /* XCTestManifests.swift in Sources */,
