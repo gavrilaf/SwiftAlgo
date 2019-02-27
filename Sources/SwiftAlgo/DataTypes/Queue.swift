@@ -1,27 +1,26 @@
 import Foundation
 
 public struct Queue<T> {
-    private var buf = [T]()
     
     public init() {}
     
-    public mutating func push(_ t: T) {
-        buf.append(t)
+    public func push(_ t: T) {
+        deq.pushLast(t)
     }
     
     @discardableResult
-    public mutating func pop() -> T? {
-        guard let p = buf.first else { return nil }
-        
-        buf.remove(at: 0)
-        return p
+    public func pop() -> T? {
+        return deq.popFirst()
     }
     
     public var head: T? {
-        return buf.first
+        return deq.first
     }
     
     public var isEmpty: Bool {
-        return buf.isEmpty
+        return deq.isEmpty
     }
+    
+    let deq = Dequeue<T>()
 }
+

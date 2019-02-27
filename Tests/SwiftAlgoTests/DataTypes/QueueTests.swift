@@ -4,7 +4,7 @@ import XCTest
 final class QueueTests: XCTestCase {
     
     func testQueueBase() {
-        var queue = Queue<Int>()
+        let queue = Queue<Int>()
         
         XCTAssertTrue(queue.isEmpty)
         XCTAssertNil(queue.head)
@@ -27,7 +27,7 @@ final class QueueTests: XCTestCase {
     func testQueueBig() {
         let size = 10000
         
-        var queue = Queue<Int>()
+        let queue = Queue<Int>()
         
         (1...size).forEach { queue.push($0) }
         XCTAssertEqual(queue.head, 1)

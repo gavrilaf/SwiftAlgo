@@ -9,6 +9,7 @@ let package = Package(
         .library(name: "SwiftAlgo", targets: ["SwiftAlgo"]),
         .executable(name: "PerfTest", targets: ["PerfTest"]),
         .executable(name: "GraphRunner", targets: ["GraphRunner"]),
+        .executable(name: "ArrayRunner", targets: ["ArrayRunner"]),
     ],
     dependencies: [
         .package(url: "https://github.com/gavrilaf/SwiftPerfTool.git", from: "0.1.0"),
@@ -16,7 +17,8 @@ let package = Package(
     targets: [
         .target(name: "SwiftAlgo", dependencies: []),
         .target(name: "PerfTest", dependencies: ["SwiftAlgo", "SwiftPerfTool"]),
-        .target(name: "GraphRunner", dependencies: ["SwiftAlgo"]),
+        .target(name: "GraphRunner", dependencies: ["SwiftAlgo", "SwiftPerfTool"]),
+        .target(name: "ArrayRunner", dependencies: ["SwiftAlgo", "SwiftPerfTool"]),
         .testTarget(name: "SwiftAlgoTests", dependencies: ["SwiftAlgo"]),
     ]
 )

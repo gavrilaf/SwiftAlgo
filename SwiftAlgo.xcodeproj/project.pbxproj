@@ -9,11 +9,11 @@
 /* Begin PBXAggregateTarget section */
 		"SwiftAlgo::SwiftAlgoPackageTests::ProductTarget" /* SwiftAlgoPackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_76 /* Build configuration list for PBXAggregateTarget "SwiftAlgoPackageTests" */;
+			buildConfigurationList = OBJ_123 /* Build configuration list for PBXAggregateTarget "SwiftAlgoPackageTests" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_79 /* PBXTargetDependency */,
+				OBJ_126 /* PBXTargetDependency */,
 			);
 			name = SwiftAlgoPackageTests;
 			productName = SwiftAlgoPackageTests;
@@ -21,69 +21,99 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		463318B7220EBB420017B474 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463318B6220EBB420017B474 /* Graph.swift */; };
-		463318B9220EBC680017B474 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463318B8220EBC680017B474 /* Node.swift */; };
-		463318BC220EC1D00017B474 /* GraphBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463318BB220EC1D00017B474 /* GraphBaseTests.swift */; };
-		463318BF22105DBF0017B474 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463318BE22105DBF0017B474 /* Stack.swift */; };
-		463318C22211579E0017B474 /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463318C12211579E0017B474 /* StackTests.swift */; };
-		463318C4221157B60017B474 /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463318C3221157B60017B474 /* QueueTests.swift */; };
-		463318C6221161630017B474 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463318C5221161630017B474 /* Queue.swift */; };
-		466823112217504500D954A9 /* Transformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466823102217504500D954A9 /* Transformation.swift */; };
-		46682313221751BA00D954A9 /* GraphTransformationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46682312221751BA00D954A9 /* GraphTransformationTests.swift */; };
-		469CCAA622169A41003E7857 /* SCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469CCAA522169A41003E7857 /* SCC.swift */; };
-		469CCAA822169A6C003E7857 /* GraphSCCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469CCAA722169A6C003E7857 /* GraphSCCTests.swift */; };
-		46E9DDFD2211C8B7002A93EE /* Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E9DDFC2211C8B7002A93EE /* Traversal.swift */; };
-		OBJ_100 /* SwiftPerfTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* SwiftPerfTool.swift */; };
-		OBJ_107 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Package.swift */; };
-		OBJ_45 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
-		OBJ_47 /* SwiftAlgo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftAlgo::SwiftAlgo::Product" /* SwiftAlgo.framework */; };
-		OBJ_55 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* main.swift */; };
-		OBJ_57 /* SwiftPerfTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftPerfTool::SwiftPerfTool::Product" /* SwiftPerfTool.framework */; };
-		OBJ_58 /* SwiftAlgo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftAlgo::SwiftAlgo::Product" /* SwiftAlgo.framework */; };
-		OBJ_66 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Merge.swift */; };
-		OBJ_67 /* Quick.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Quick.swift */; };
-		OBJ_74 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_85 /* MergeSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* MergeSortTests.swift */; };
-		OBJ_86 /* QuickSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* QuickSortTests.swift */; };
-		OBJ_87 /* TestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* TestCases.swift */; };
-		OBJ_88 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* XCTestManifests.swift */; };
-		OBJ_90 /* SwiftAlgo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftAlgo::SwiftAlgo::Product" /* SwiftAlgo.framework */; };
-		OBJ_96 /* ApproximateEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* ApproximateEquatable.swift */; };
-		OBJ_97 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Errors.swift */; };
-		OBJ_98 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Memory.swift */; };
-		OBJ_99 /* Scores.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Scores.swift */; };
+		46A6FF0C2226EC3A00354043 /* Median.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A6FF0B2226EC3A00354043 /* Median.swift */; };
+		OBJ_103 /* BinaryHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BinaryHeap.swift */; };
+		OBJ_104 /* Dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Dequeue.swift */; };
+		OBJ_105 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Queue.swift */; };
+		OBJ_106 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Stack.swift */; };
+		OBJ_107 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Graph.swift */; };
+		OBJ_108 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Node.swift */; };
+		OBJ_109 /* SCC.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* SCC.swift */; };
+		OBJ_110 /* Transformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Transformation.swift */; };
+		OBJ_111 /* Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Traversal.swift */; };
+		OBJ_112 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Heap.swift */; };
+		OBJ_113 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Merge.swift */; };
+		OBJ_114 /* Quick.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Quick.swift */; };
+		OBJ_121 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_132 /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* QueueTests.swift */; };
+		OBJ_133 /* StackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* StackTests.swift */; };
+		OBJ_134 /* GraphBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* GraphBaseTests.swift */; };
+		OBJ_135 /* GraphSCCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* GraphSCCTests.swift */; };
+		OBJ_136 /* GraphTransformationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* GraphTransformationTests.swift */; };
+		OBJ_137 /* HeapSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* HeapSortTests.swift */; };
+		OBJ_138 /* MergeSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* MergeSortTests.swift */; };
+		OBJ_139 /* QuickSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* QuickSortTests.swift */; };
+		OBJ_140 /* TestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* TestCases.swift */; };
+		OBJ_141 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* XCTestManifests.swift */; };
+		OBJ_143 /* SwiftAlgo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftAlgo::SwiftAlgo::Product" /* SwiftAlgo.framework */; };
+		OBJ_149 /* ApproximateEquatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* ApproximateEquatable.swift */; };
+		OBJ_150 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Errors.swift */; };
+		OBJ_151 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* Memory.swift */; };
+		OBJ_152 /* Scores.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Scores.swift */; };
+		OBJ_153 /* SwiftPerfTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* SwiftPerfTool.swift */; };
+		OBJ_160 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Package.swift */; };
+		OBJ_69 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* main.swift */; };
+		OBJ_71 /* SwiftPerfTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftPerfTool::SwiftPerfTool::Product" /* SwiftPerfTool.framework */; };
+		OBJ_72 /* SwiftAlgo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftAlgo::SwiftAlgo::Product" /* SwiftAlgo.framework */; };
+		OBJ_82 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* main.swift */; };
+		OBJ_84 /* SwiftPerfTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftPerfTool::SwiftPerfTool::Product" /* SwiftPerfTool.framework */; };
+		OBJ_85 /* SwiftAlgo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftAlgo::SwiftAlgo::Product" /* SwiftAlgo.framework */; };
+		OBJ_93 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* main.swift */; };
+		OBJ_95 /* SwiftPerfTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftPerfTool::SwiftPerfTool::Product" /* SwiftPerfTool.framework */; };
+		OBJ_96 /* SwiftAlgo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftAlgo::SwiftAlgo::Product" /* SwiftAlgo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		463318B0220EB9AE0017B474 /* PBXContainerItemProxy */ = {
+		46A6FF032226EA5700354043 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SwiftPerfTool::SwiftPerfTool";
 			remoteInfo = SwiftPerfTool;
 		};
-		463318B1220EB9AE0017B474 /* PBXContainerItemProxy */ = {
+		46A6FF042226EA5700354043 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SwiftAlgo::SwiftAlgo";
 			remoteInfo = SwiftAlgo;
 		};
-		463318B2220EB9AE0017B474 /* PBXContainerItemProxy */ = {
+		46A6FF052226EA5700354043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftPerfTool::SwiftPerfTool";
+			remoteInfo = SwiftPerfTool;
+		};
+		46A6FF062226EA5700354043 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SwiftAlgo::SwiftAlgo";
 			remoteInfo = SwiftAlgo;
 		};
-		463318B3220EB9AE0017B474 /* PBXContainerItemProxy */ = {
+		46A6FF072226EA5700354043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftPerfTool::SwiftPerfTool";
+			remoteInfo = SwiftPerfTool;
+		};
+		46A6FF082226EA5700354043 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SwiftAlgo::SwiftAlgo";
 			remoteInfo = SwiftAlgo;
 		};
-		463318B4220EB9AF0017B474 /* PBXContainerItemProxy */ = {
+		46A6FF092226EA5700354043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftAlgo::SwiftAlgo";
+			remoteInfo = SwiftAlgo;
+		};
+		46A6FF0A2226EA5A00354043 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -93,35 +123,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		463318B6220EBB420017B474 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
-		463318B8220EBC680017B474 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
-		463318BB220EC1D00017B474 /* GraphBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphBaseTests.swift; sourceTree = "<group>"; };
-		463318BE22105DBF0017B474 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
-		463318C12211579E0017B474 /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
-		463318C3221157B60017B474 /* QueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
-		463318C5221161630017B474 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
-		466823102217504500D954A9 /* Transformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transformation.swift; sourceTree = "<group>"; };
-		46682312221751BA00D954A9 /* GraphTransformationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphTransformationTests.swift; sourceTree = "<group>"; };
-		469CCAA522169A41003E7857 /* SCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCC.swift; sourceTree = "<group>"; };
-		469CCAA722169A6C003E7857 /* GraphSCCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphSCCTests.swift; sourceTree = "<group>"; };
-		46E9DDFC2211C8B7002A93EE /* Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traversal.swift; sourceTree = "<group>"; };
-		OBJ_11 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		OBJ_14 /* Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge.swift; sourceTree = "<group>"; };
-		OBJ_15 /* Quick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick.swift; sourceTree = "<group>"; };
-		OBJ_19 /* MergeSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortTests.swift; sourceTree = "<group>"; };
-		OBJ_20 /* QuickSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSortTests.swift; sourceTree = "<group>"; };
-		OBJ_21 /* TestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCases.swift; sourceTree = "<group>"; };
-		OBJ_22 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
-		OBJ_23 /* Build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Build; sourceTree = SOURCE_ROOT; };
-		OBJ_24 /* DerivedData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DerivedData; sourceTree = SOURCE_ROOT; };
-		OBJ_28 /* ApproximateEquatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApproximateEquatable.swift; sourceTree = "<group>"; };
-		OBJ_29 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
-		OBJ_30 /* Memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
-		OBJ_31 /* Scores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scores.swift; sourceTree = "<group>"; };
-		OBJ_32 /* SwiftPerfTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPerfTool.swift; sourceTree = "<group>"; };
-		OBJ_33 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/eugenf/Documents/Projects/Swift/my-github/SwiftAlgo/.build/checkouts/SwiftPerfTool.git-6717976850392721318/Package.swift"; sourceTree = "<group>"; };
+		46A6FF0B2226EC3A00354043 /* Median.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Median.swift; sourceTree = "<group>"; };
+		OBJ_10 /* BinaryHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
+		OBJ_11 /* Dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dequeue.swift; sourceTree = "<group>"; };
+		OBJ_12 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		OBJ_13 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		OBJ_15 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		OBJ_16 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		OBJ_17 /* SCC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCC.swift; sourceTree = "<group>"; };
+		OBJ_18 /* Transformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transformation.swift; sourceTree = "<group>"; };
+		OBJ_19 /* Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traversal.swift; sourceTree = "<group>"; };
+		OBJ_21 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		OBJ_22 /* Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Quick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick.swift; sourceTree = "<group>"; };
+		OBJ_25 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_27 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_29 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_33 /* QueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
+		OBJ_34 /* StackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTests.swift; sourceTree = "<group>"; };
+		OBJ_36 /* GraphBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphBaseTests.swift; sourceTree = "<group>"; };
+		OBJ_37 /* GraphSCCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphSCCTests.swift; sourceTree = "<group>"; };
+		OBJ_38 /* GraphTransformationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphTransformationTests.swift; sourceTree = "<group>"; };
+		OBJ_40 /* HeapSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSortTests.swift; sourceTree = "<group>"; };
+		OBJ_41 /* MergeSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortTests.swift; sourceTree = "<group>"; };
+		OBJ_42 /* QuickSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSortTests.swift; sourceTree = "<group>"; };
+		OBJ_43 /* TestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCases.swift; sourceTree = "<group>"; };
+		OBJ_44 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_45 /* test-data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "test-data"; sourceTree = SOURCE_ROOT; };
+		OBJ_46 /* Build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Build; sourceTree = SOURCE_ROOT; };
+		OBJ_47 /* DerivedData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DerivedData; sourceTree = SOURCE_ROOT; };
+		OBJ_51 /* ApproximateEquatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApproximateEquatable.swift; sourceTree = "<group>"; };
+		OBJ_52 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		OBJ_53 /* Memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		OBJ_54 /* Scores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scores.swift; sourceTree = "<group>"; };
+		OBJ_55 /* SwiftPerfTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPerfTool.swift; sourceTree = "<group>"; };
+		OBJ_56 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/eugenf/Documents/Projects/Swift/my-github/SwiftAlgo/.build/checkouts/SwiftPerfTool.git-6717976850392721318/Package.swift"; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		"SwiftAlgo::ArrayRunner::Product" /* ArrayRunner */ = {isa = PBXFileReference; lastKnownFileType = text; path = ArrayRunner; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SwiftAlgo::GraphRunner::Product" /* GraphRunner */ = {isa = PBXFileReference; lastKnownFileType = text; path = GraphRunner; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SwiftAlgo::PerfTest::Product" /* PerfTest */ = {isa = PBXFileReference; lastKnownFileType = text; path = PerfTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SwiftAlgo::SwiftAlgo::Product" /* SwiftAlgo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftAlgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,235 +168,282 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_101 /* Frameworks */ = {
+		OBJ_115 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_46 /* Frameworks */ = {
+		OBJ_142 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_47 /* SwiftAlgo.framework in Frameworks */,
+				OBJ_143 /* SwiftAlgo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_56 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_57 /* SwiftPerfTool.framework in Frameworks */,
-				OBJ_58 /* SwiftAlgo.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_68 /* Frameworks */ = {
+		OBJ_154 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_89 /* Frameworks */ = {
+		OBJ_70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_90 /* SwiftAlgo.framework in Frameworks */,
+				OBJ_71 /* SwiftPerfTool.framework in Frameworks */,
+				OBJ_72 /* SwiftAlgo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_84 /* SwiftPerfTool.framework in Frameworks */,
+				OBJ_85 /* SwiftAlgo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_95 /* SwiftPerfTool.framework in Frameworks */,
+				OBJ_96 /* SwiftAlgo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		463318B5220EBAF30017B474 /* Graph */ = {
+		OBJ_14 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
-				463318B6220EBB420017B474 /* Graph.swift */,
-				463318B8220EBC680017B474 /* Node.swift */,
-				46E9DDFC2211C8B7002A93EE /* Traversal.swift */,
-				469CCAA522169A41003E7857 /* SCC.swift */,
-				466823102217504500D954A9 /* Transformation.swift */,
+				OBJ_15 /* Graph.swift */,
+				OBJ_16 /* Node.swift */,
+				OBJ_17 /* SCC.swift */,
+				OBJ_18 /* Transformation.swift */,
+				OBJ_19 /* Traversal.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
 		};
-		463318BA220EC1AF0017B474 /* Graph */ = {
+		OBJ_20 /* Sort */ = {
 			isa = PBXGroup;
 			children = (
-				463318BB220EC1D00017B474 /* GraphBaseTests.swift */,
-				469CCAA722169A6C003E7857 /* GraphSCCTests.swift */,
-				46682312221751BA00D954A9 /* GraphTransformationTests.swift */,
+				OBJ_21 /* Heap.swift */,
+				OBJ_22 /* Merge.swift */,
+				OBJ_23 /* Quick.swift */,
 			);
-			path = Graph;
+			path = Sort;
 			sourceTree = "<group>";
 		};
-		463318BD22105DA30017B474 /* DataTypes */ = {
+		OBJ_24 /* ArrayRunner */ = {
 			isa = PBXGroup;
 			children = (
-				463318BE22105DBF0017B474 /* Stack.swift */,
-				463318C5221161630017B474 /* Queue.swift */,
+				OBJ_25 /* main.swift */,
+				46A6FF0B2226EC3A00354043 /* Median.swift */,
 			);
-			path = DataTypes;
-			sourceTree = "<group>";
+			name = ArrayRunner;
+			path = Sources/ArrayRunner;
+			sourceTree = SOURCE_ROOT;
 		};
-		463318C0221157840017B474 /* DataTypes */ = {
+		OBJ_26 /* PerfTest */ = {
 			isa = PBXGroup;
 			children = (
-				463318C12211579E0017B474 /* StackTests.swift */,
-				463318C3221157B60017B474 /* QueueTests.swift */,
-			);
-			path = DataTypes;
-			sourceTree = "<group>";
-		};
-		OBJ_10 /* PerfTest */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_11 /* main.swift */,
+				OBJ_27 /* main.swift */,
 			);
 			name = PerfTest;
 			path = Sources/PerfTest;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_12 /* SwiftAlgo */ = {
+		OBJ_28 /* GraphRunner */ = {
 			isa = PBXGroup;
 			children = (
-				463318BD22105DA30017B474 /* DataTypes */,
-				463318B5220EBAF30017B474 /* Graph */,
-				OBJ_13 /* Sort */,
-			);
-			name = SwiftAlgo;
-			path = Sources/SwiftAlgo;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_13 /* Sort */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_14 /* Merge.swift */,
-				OBJ_15 /* Quick.swift */,
-			);
-			path = Sort;
-			sourceTree = "<group>";
-		};
-		OBJ_16 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_17 /* SwiftAlgoTests */,
-			);
-			name = Tests;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_17 /* SwiftAlgoTests */ = {
-			isa = PBXGroup;
-			children = (
-				463318C0221157840017B474 /* DataTypes */,
-				463318BA220EC1AF0017B474 /* Graph */,
-				OBJ_18 /* Sort */,
-				OBJ_22 /* XCTestManifests.swift */,
-			);
-			name = SwiftAlgoTests;
-			path = Tests/SwiftAlgoTests;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_18 /* Sort */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_19 /* MergeSortTests.swift */,
-				OBJ_20 /* QuickSortTests.swift */,
-				OBJ_21 /* TestCases.swift */,
-			);
-			path = Sort;
-			sourceTree = "<group>";
-		};
-		OBJ_25 /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_26 /* SwiftPerfTool 0.1.1 */,
-			);
-			name = Dependencies;
-			sourceTree = "<group>";
-		};
-		OBJ_26 /* SwiftPerfTool 0.1.1 */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_27 /* SwiftPerfTool */,
-				OBJ_33 /* Package.swift */,
-			);
-			name = "SwiftPerfTool 0.1.1";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_27 /* SwiftPerfTool */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_28 /* ApproximateEquatable.swift */,
-				OBJ_29 /* Errors.swift */,
-				OBJ_30 /* Memory.swift */,
-				OBJ_31 /* Scores.swift */,
-				OBJ_32 /* SwiftPerfTool.swift */,
-			);
-			name = SwiftPerfTool;
-			path = ".build/checkouts/SwiftPerfTool.git-6717976850392721318/Sources/SwiftPerfTool";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_34 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				"SwiftAlgo::SwiftAlgo::Product" /* SwiftAlgo.framework */,
-				"SwiftPerfTool::SwiftPerfTool::Product" /* SwiftPerfTool.framework */,
-				"SwiftAlgo::PerfTest::Product" /* PerfTest */,
-				"SwiftAlgo::SwiftAlgoTests::Product" /* SwiftAlgoTests.xctest */,
-				"SwiftAlgo::GraphRunner::Product" /* GraphRunner */,
-			);
-			name = Products;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		OBJ_5 = {
-			isa = PBXGroup;
-			children = (
-				OBJ_6 /* Package.swift */,
-				OBJ_7 /* Sources */,
-				OBJ_16 /* Tests */,
-				OBJ_23 /* Build */,
-				OBJ_24 /* DerivedData */,
-				OBJ_25 /* Dependencies */,
-				OBJ_34 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		OBJ_7 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_8 /* GraphRunner */,
-				OBJ_10 /* PerfTest */,
-				OBJ_12 /* SwiftAlgo */,
-			);
-			name = Sources;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_8 /* GraphRunner */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_9 /* main.swift */,
+				OBJ_29 /* main.swift */,
 			);
 			name = GraphRunner;
 			path = Sources/GraphRunner;
 			sourceTree = SOURCE_ROOT;
 		};
+		OBJ_30 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_31 /* SwiftAlgoTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_31 /* SwiftAlgoTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_32 /* DataTypes */,
+				OBJ_35 /* Graph */,
+				OBJ_39 /* Sort */,
+				OBJ_44 /* XCTestManifests.swift */,
+			);
+			name = SwiftAlgoTests;
+			path = Tests/SwiftAlgoTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_32 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_33 /* QueueTests.swift */,
+				OBJ_34 /* StackTests.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		OBJ_35 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_36 /* GraphBaseTests.swift */,
+				OBJ_37 /* GraphSCCTests.swift */,
+				OBJ_38 /* GraphTransformationTests.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		OBJ_39 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_40 /* HeapSortTests.swift */,
+				OBJ_41 /* MergeSortTests.swift */,
+				OBJ_42 /* QuickSortTests.swift */,
+				OBJ_43 /* TestCases.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		OBJ_48 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_49 /* SwiftPerfTool 0.1.1 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_49 /* SwiftPerfTool 0.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_50 /* SwiftPerfTool */,
+				OBJ_56 /* Package.swift */,
+			);
+			name = "SwiftPerfTool 0.1.1";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_30 /* Tests */,
+				OBJ_45 /* test-data */,
+				OBJ_46 /* Build */,
+				OBJ_47 /* DerivedData */,
+				OBJ_48 /* Dependencies */,
+				OBJ_57 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_50 /* SwiftPerfTool */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_51 /* ApproximateEquatable.swift */,
+				OBJ_52 /* Errors.swift */,
+				OBJ_53 /* Memory.swift */,
+				OBJ_54 /* Scores.swift */,
+				OBJ_55 /* SwiftPerfTool.swift */,
+			);
+			name = SwiftPerfTool;
+			path = ".build/checkouts/SwiftPerfTool.git-6717976850392721318/Sources/SwiftPerfTool";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"SwiftAlgo::PerfTest::Product" /* PerfTest */,
+				"SwiftPerfTool::SwiftPerfTool::Product" /* SwiftPerfTool.framework */,
+				"SwiftAlgo::ArrayRunner::Product" /* ArrayRunner */,
+				"SwiftAlgo::GraphRunner::Product" /* GraphRunner */,
+				"SwiftAlgo::SwiftAlgoTests::Product" /* SwiftAlgoTests.xctest */,
+				"SwiftAlgo::SwiftAlgo::Product" /* SwiftAlgo.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* SwiftAlgo */,
+				OBJ_24 /* ArrayRunner */,
+				OBJ_26 /* PerfTest */,
+				OBJ_28 /* GraphRunner */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* SwiftAlgo */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* DataTypes */,
+				OBJ_14 /* Graph */,
+				OBJ_20 /* Sort */,
+			);
+			name = SwiftAlgo;
+			path = Sources/SwiftAlgo;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* BinaryHeap.swift */,
+				OBJ_11 /* Dequeue.swift */,
+				OBJ_12 /* Queue.swift */,
+				OBJ_13 /* Stack.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		"SwiftAlgo::GraphRunner" /* GraphRunner */ = {
+		"SwiftAlgo::ArrayRunner" /* ArrayRunner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_41 /* Build configuration list for PBXNativeTarget "GraphRunner" */;
+			buildConfigurationList = OBJ_65 /* Build configuration list for PBXNativeTarget "ArrayRunner" */;
 			buildPhases = (
-				OBJ_44 /* Sources */,
-				OBJ_46 /* Frameworks */,
+				OBJ_68 /* Sources */,
+				OBJ_70 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_48 /* PBXTargetDependency */,
+				OBJ_73 /* PBXTargetDependency */,
+				OBJ_75 /* PBXTargetDependency */,
+			);
+			name = ArrayRunner;
+			productName = ArrayRunner;
+			productReference = "SwiftAlgo::ArrayRunner::Product" /* ArrayRunner */;
+			productType = "com.apple.product-type.tool";
+		};
+		"SwiftAlgo::GraphRunner" /* GraphRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_78 /* Build configuration list for PBXNativeTarget "GraphRunner" */;
+			buildPhases = (
+				OBJ_81 /* Sources */,
+				OBJ_83 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_86 /* PBXTargetDependency */,
+				OBJ_87 /* PBXTargetDependency */,
 			);
 			name = GraphRunner;
 			productName = GraphRunner;
@@ -367,16 +452,16 @@
 		};
 		"SwiftAlgo::PerfTest" /* PerfTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_51 /* Build configuration list for PBXNativeTarget "PerfTest" */;
+			buildConfigurationList = OBJ_89 /* Build configuration list for PBXNativeTarget "PerfTest" */;
 			buildPhases = (
-				OBJ_54 /* Sources */,
-				OBJ_56 /* Frameworks */,
+				OBJ_92 /* Sources */,
+				OBJ_94 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_59 /* PBXTargetDependency */,
-				OBJ_61 /* PBXTargetDependency */,
+				OBJ_97 /* PBXTargetDependency */,
+				OBJ_98 /* PBXTargetDependency */,
 			);
 			name = PerfTest;
 			productName = PerfTest;
@@ -385,10 +470,10 @@
 		};
 		"SwiftAlgo::SwiftAlgo" /* SwiftAlgo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_62 /* Build configuration list for PBXNativeTarget "SwiftAlgo" */;
+			buildConfigurationList = OBJ_99 /* Build configuration list for PBXNativeTarget "SwiftAlgo" */;
 			buildPhases = (
-				OBJ_65 /* Sources */,
-				OBJ_68 /* Frameworks */,
+				OBJ_102 /* Sources */,
+				OBJ_115 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -401,15 +486,15 @@
 		};
 		"SwiftAlgo::SwiftAlgoTests" /* SwiftAlgoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_81 /* Build configuration list for PBXNativeTarget "SwiftAlgoTests" */;
+			buildConfigurationList = OBJ_128 /* Build configuration list for PBXNativeTarget "SwiftAlgoTests" */;
 			buildPhases = (
-				OBJ_84 /* Sources */,
-				OBJ_89 /* Frameworks */,
+				OBJ_131 /* Sources */,
+				OBJ_142 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_91 /* PBXTargetDependency */,
+				OBJ_144 /* PBXTargetDependency */,
 			);
 			name = SwiftAlgoTests;
 			productName = SwiftAlgoTests;
@@ -418,9 +503,9 @@
 		};
 		"SwiftAlgo::SwiftPMPackageDescription" /* SwiftAlgoPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_70 /* Build configuration list for PBXNativeTarget "SwiftAlgoPackageDescription" */;
+			buildConfigurationList = OBJ_117 /* Build configuration list for PBXNativeTarget "SwiftAlgoPackageDescription" */;
 			buildPhases = (
-				OBJ_73 /* Sources */,
+				OBJ_120 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -432,9 +517,9 @@
 		};
 		"SwiftPerfTool::SwiftPMPackageDescription" /* SwiftPerfToolPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_103 /* Build configuration list for PBXNativeTarget "SwiftPerfToolPackageDescription" */;
+			buildConfigurationList = OBJ_156 /* Build configuration list for PBXNativeTarget "SwiftPerfToolPackageDescription" */;
 			buildPhases = (
-				OBJ_106 /* Sources */,
+				OBJ_159 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -446,10 +531,10 @@
 		};
 		"SwiftPerfTool::SwiftPerfTool" /* SwiftPerfTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_92 /* Build configuration list for PBXNativeTarget "SwiftPerfTool" */;
+			buildConfigurationList = OBJ_145 /* Build configuration list for PBXNativeTarget "SwiftPerfTool" */;
 			buildPhases = (
-				OBJ_95 /* Sources */,
-				OBJ_101 /* Frameworks */,
+				OBJ_148 /* Sources */,
+				OBJ_154 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -475,11 +560,12 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5;
-			productRefGroup = OBJ_34 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_57 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				"SwiftAlgo::ArrayRunner" /* ArrayRunner */,
 				"SwiftAlgo::GraphRunner" /* GraphRunner */,
 				"SwiftAlgo::PerfTest" /* PerfTest */,
 				"SwiftAlgo::SwiftAlgo" /* SwiftAlgo */,
@@ -493,114 +579,310 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_106 /* Sources */ = {
+		OBJ_102 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_107 /* Package.swift in Sources */,
+				OBJ_103 /* BinaryHeap.swift in Sources */,
+				OBJ_104 /* Dequeue.swift in Sources */,
+				OBJ_105 /* Queue.swift in Sources */,
+				OBJ_106 /* Stack.swift in Sources */,
+				OBJ_107 /* Graph.swift in Sources */,
+				OBJ_108 /* Node.swift in Sources */,
+				OBJ_109 /* SCC.swift in Sources */,
+				OBJ_110 /* Transformation.swift in Sources */,
+				OBJ_111 /* Traversal.swift in Sources */,
+				OBJ_112 /* Heap.swift in Sources */,
+				OBJ_113 /* Merge.swift in Sources */,
+				OBJ_114 /* Quick.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_44 /* Sources */ = {
+		OBJ_120 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_45 /* main.swift in Sources */,
+				OBJ_121 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_54 /* Sources */ = {
+		OBJ_131 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_55 /* main.swift in Sources */,
+				OBJ_132 /* QueueTests.swift in Sources */,
+				OBJ_133 /* StackTests.swift in Sources */,
+				OBJ_134 /* GraphBaseTests.swift in Sources */,
+				OBJ_135 /* GraphSCCTests.swift in Sources */,
+				OBJ_136 /* GraphTransformationTests.swift in Sources */,
+				OBJ_137 /* HeapSortTests.swift in Sources */,
+				OBJ_138 /* MergeSortTests.swift in Sources */,
+				OBJ_139 /* QuickSortTests.swift in Sources */,
+				OBJ_140 /* TestCases.swift in Sources */,
+				OBJ_141 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_65 /* Sources */ = {
+		OBJ_148 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				463318B7220EBB420017B474 /* Graph.swift in Sources */,
-				463318C6221161630017B474 /* Queue.swift in Sources */,
-				463318BF22105DBF0017B474 /* Stack.swift in Sources */,
-				OBJ_66 /* Merge.swift in Sources */,
-				46E9DDFD2211C8B7002A93EE /* Traversal.swift in Sources */,
-				469CCAA622169A41003E7857 /* SCC.swift in Sources */,
-				OBJ_67 /* Quick.swift in Sources */,
-				463318B9220EBC680017B474 /* Node.swift in Sources */,
-				466823112217504500D954A9 /* Transformation.swift in Sources */,
+				OBJ_149 /* ApproximateEquatable.swift in Sources */,
+				OBJ_150 /* Errors.swift in Sources */,
+				OBJ_151 /* Memory.swift in Sources */,
+				OBJ_152 /* Scores.swift in Sources */,
+				OBJ_153 /* SwiftPerfTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_73 /* Sources */ = {
+		OBJ_159 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_74 /* Package.swift in Sources */,
+				OBJ_160 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_84 /* Sources */ = {
+		OBJ_68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				463318BC220EC1D00017B474 /* GraphBaseTests.swift in Sources */,
-				OBJ_85 /* MergeSortTests.swift in Sources */,
-				463318C22211579E0017B474 /* StackTests.swift in Sources */,
-				46682313221751BA00D954A9 /* GraphTransformationTests.swift in Sources */,
-				OBJ_86 /* QuickSortTests.swift in Sources */,
-				469CCAA822169A6C003E7857 /* GraphSCCTests.swift in Sources */,
-				OBJ_87 /* TestCases.swift in Sources */,
-				463318C4221157B60017B474 /* QueueTests.swift in Sources */,
-				OBJ_88 /* XCTestManifests.swift in Sources */,
+				OBJ_69 /* main.swift in Sources */,
+				46A6FF0C2226EC3A00354043 /* Median.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_95 /* Sources */ = {
+		OBJ_81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_96 /* ApproximateEquatable.swift in Sources */,
-				OBJ_97 /* Errors.swift in Sources */,
-				OBJ_98 /* Memory.swift in Sources */,
-				OBJ_99 /* Scores.swift in Sources */,
-				OBJ_100 /* SwiftPerfTool.swift in Sources */,
+				OBJ_82 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_93 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_48 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SwiftAlgo::SwiftAlgo" /* SwiftAlgo */;
-			targetProxy = 463318B2220EB9AE0017B474 /* PBXContainerItemProxy */;
-		};
-		OBJ_59 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SwiftPerfTool::SwiftPerfTool" /* SwiftPerfTool */;
-			targetProxy = 463318B0220EB9AE0017B474 /* PBXContainerItemProxy */;
-		};
-		OBJ_61 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "SwiftAlgo::SwiftAlgo" /* SwiftAlgo */;
-			targetProxy = 463318B1220EB9AE0017B474 /* PBXContainerItemProxy */;
-		};
-		OBJ_79 /* PBXTargetDependency */ = {
+		OBJ_126 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "SwiftAlgo::SwiftAlgoTests" /* SwiftAlgoTests */;
-			targetProxy = 463318B4220EB9AF0017B474 /* PBXContainerItemProxy */;
+			targetProxy = 46A6FF0A2226EA5A00354043 /* PBXContainerItemProxy */;
 		};
-		OBJ_91 /* PBXTargetDependency */ = {
+		OBJ_144 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "SwiftAlgo::SwiftAlgo" /* SwiftAlgo */;
-			targetProxy = 463318B3220EB9AE0017B474 /* PBXContainerItemProxy */;
+			targetProxy = 46A6FF092226EA5700354043 /* PBXContainerItemProxy */;
+		};
+		OBJ_73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftPerfTool::SwiftPerfTool" /* SwiftPerfTool */;
+			targetProxy = 46A6FF032226EA5700354043 /* PBXContainerItemProxy */;
+		};
+		OBJ_75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftAlgo::SwiftAlgo" /* SwiftAlgo */;
+			targetProxy = 46A6FF042226EA5700354043 /* PBXContainerItemProxy */;
+		};
+		OBJ_86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftPerfTool::SwiftPerfTool" /* SwiftPerfTool */;
+			targetProxy = 46A6FF072226EA5700354043 /* PBXContainerItemProxy */;
+		};
+		OBJ_87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftAlgo::SwiftAlgo" /* SwiftAlgo */;
+			targetProxy = 46A6FF082226EA5700354043 /* PBXContainerItemProxy */;
+		};
+		OBJ_97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftPerfTool::SwiftPerfTool" /* SwiftPerfTool */;
+			targetProxy = 46A6FF052226EA5700354043 /* PBXContainerItemProxy */;
+		};
+		OBJ_98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftAlgo::SwiftAlgo" /* SwiftAlgo */;
+			targetProxy = 46A6FF062226EA5700354043 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_104 /* Debug */ = {
+		OBJ_100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftAlgo.xcodeproj/SwiftAlgo_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftAlgo;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SwiftAlgo;
+			};
+			name = Debug;
+		};
+		OBJ_101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftAlgo.xcodeproj/SwiftAlgo_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftAlgo;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SwiftAlgo;
+			};
+			name = Release;
+		};
+		OBJ_118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		OBJ_119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		OBJ_124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftAlgo.xcodeproj/SwiftAlgoTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SwiftAlgoTests;
+			};
+			name = Debug;
+		};
+		OBJ_130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftAlgo.xcodeproj/SwiftAlgoTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = SwiftAlgoTests;
+			};
+			name = Release;
+		};
+		OBJ_146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftAlgo.xcodeproj/SwiftPerfTool_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftPerfTool;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftPerfTool;
+			};
+			name = Debug;
+		};
+		OBJ_147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftAlgo.xcodeproj/SwiftPerfTool_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftPerfTool;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftPerfTool;
+			};
+			name = Release;
+		};
+		OBJ_157 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -609,7 +891,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_105 /* Release */ = {
+		OBJ_158 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -664,7 +946,49 @@
 			};
 			name = Release;
 		};
-		OBJ_42 /* Debug */ = {
+		OBJ_66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftAlgo.xcodeproj/ArrayRunner_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = ArrayRunner;
+			};
+			name = Debug;
+		};
+		OBJ_67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftAlgo.xcodeproj/ArrayRunner_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.2;
+				TARGET_NAME = ArrayRunner;
+			};
+			name = Release;
+		};
+		OBJ_79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -685,7 +1009,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_43 /* Release */ = {
+		OBJ_80 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -706,7 +1030,7 @@
 			};
 			name = Release;
 		};
-		OBJ_52 /* Debug */ = {
+		OBJ_90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -727,7 +1051,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_53 /* Release */ = {
+		OBJ_91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -745,185 +1069,53 @@
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
 				SWIFT_VERSION = 4.2;
 				TARGET_NAME = PerfTest;
-			};
-			name = Release;
-		};
-		OBJ_63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SwiftAlgo.xcodeproj/SwiftAlgo_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = SwiftAlgo;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = SwiftAlgo;
-			};
-			name = Debug;
-		};
-		OBJ_64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SwiftAlgo.xcodeproj/SwiftAlgo_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = SwiftAlgo;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = SwiftAlgo;
-			};
-			name = Release;
-		};
-		OBJ_71 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Debug;
-		};
-		OBJ_72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4.2 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
-		OBJ_77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_78 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		OBJ_82 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SwiftAlgo.xcodeproj/SwiftAlgoTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = SwiftAlgoTests;
-			};
-			name = Debug;
-		};
-		OBJ_83 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SwiftAlgo.xcodeproj/SwiftAlgoTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.2;
-				TARGET_NAME = SwiftAlgoTests;
-			};
-			name = Release;
-		};
-		OBJ_93 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SwiftAlgo.xcodeproj/SwiftPerfTool_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = SwiftPerfTool;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = SwiftPerfTool;
-			};
-			name = Debug;
-		};
-		OBJ_94 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SwiftAlgo.xcodeproj/SwiftPerfTool_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = SwiftPerfTool;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = SwiftPerfTool;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_103 /* Build configuration list for PBXNativeTarget "SwiftPerfToolPackageDescription" */ = {
+		OBJ_117 /* Build configuration list for PBXNativeTarget "SwiftAlgoPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_104 /* Debug */,
-				OBJ_105 /* Release */,
+				OBJ_118 /* Debug */,
+				OBJ_119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_123 /* Build configuration list for PBXAggregateTarget "SwiftAlgoPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_124 /* Debug */,
+				OBJ_125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_128 /* Build configuration list for PBXNativeTarget "SwiftAlgoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_129 /* Debug */,
+				OBJ_130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_145 /* Build configuration list for PBXNativeTarget "SwiftPerfTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_146 /* Debug */,
+				OBJ_147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_156 /* Build configuration list for PBXNativeTarget "SwiftPerfToolPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_157 /* Debug */,
+				OBJ_158 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -937,65 +1129,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_41 /* Build configuration list for PBXNativeTarget "GraphRunner" */ = {
+		OBJ_65 /* Build configuration list for PBXNativeTarget "ArrayRunner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_42 /* Debug */,
-				OBJ_43 /* Release */,
+				OBJ_66 /* Debug */,
+				OBJ_67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_51 /* Build configuration list for PBXNativeTarget "PerfTest" */ = {
+		OBJ_78 /* Build configuration list for PBXNativeTarget "GraphRunner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_52 /* Debug */,
-				OBJ_53 /* Release */,
+				OBJ_79 /* Debug */,
+				OBJ_80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_62 /* Build configuration list for PBXNativeTarget "SwiftAlgo" */ = {
+		OBJ_89 /* Build configuration list for PBXNativeTarget "PerfTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_63 /* Debug */,
-				OBJ_64 /* Release */,
+				OBJ_90 /* Debug */,
+				OBJ_91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_70 /* Build configuration list for PBXNativeTarget "SwiftAlgoPackageDescription" */ = {
+		OBJ_99 /* Build configuration list for PBXNativeTarget "SwiftAlgo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_71 /* Debug */,
-				OBJ_72 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_76 /* Build configuration list for PBXAggregateTarget "SwiftAlgoPackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_77 /* Debug */,
-				OBJ_78 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_81 /* Build configuration list for PBXNativeTarget "SwiftAlgoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_82 /* Debug */,
-				OBJ_83 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_92 /* Build configuration list for PBXNativeTarget "SwiftPerfTool" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_93 /* Debug */,
-				OBJ_94 /* Release */,
+				OBJ_100 /* Debug */,
+				OBJ_101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

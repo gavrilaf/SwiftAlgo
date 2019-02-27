@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SwiftAlgo::GraphRunner"
-               BuildableName = "GraphRunner"
-               BlueprintName = "GraphRunner"
+               BlueprintIdentifier = "SwiftAlgo::PerfTest"
+               BuildableName = "PerfTest"
+               BlueprintName = "PerfTest"
                ReferencedContainer = "container:SwiftAlgo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "SwiftAlgo::PerfTest"
-               BuildableName = "PerfTest"
-               BlueprintName = "PerfTest"
+               BlueprintIdentifier = "SwiftAlgo::ArrayRunner"
+               BuildableName = "ArrayRunner"
+               BlueprintName = "ArrayRunner"
+               ReferencedContainer = "container:SwiftAlgo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "SwiftAlgo::GraphRunner"
+               BuildableName = "GraphRunner"
+               BlueprintName = "GraphRunner"
                ReferencedContainer = "container:SwiftAlgo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -83,9 +97,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "SwiftAlgo::GraphRunner"
-            BuildableName = "GraphRunner"
-            BlueprintName = "GraphRunner"
+            BlueprintIdentifier = "SwiftAlgo::PerfTest"
+            BuildableName = "PerfTest"
+            BlueprintName = "PerfTest"
             ReferencedContainer = "container:SwiftAlgo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -30,6 +30,10 @@ func testSort() {
         Try(name: "quick, reversed", arr: reversed, call: { $0.quickSort() }),
         Try(name: "quick, random", arr: random, call: { $0.quickSort() }),
         
+        Try(name: "heap, sorted", arr: sorted, call: { $0.heapSort() }),
+        Try(name: "heap, reversed", arr: reversed, call: { $0.heapSort() }),
+        Try(name: "heap, random", arr: random, call: { $0.heapSort() }),
+        
         Try(name: "lib, sorted", arr: sorted, call: { $0.sort() }),
         Try(name: "lib, reversed", arr: reversed, call: { $0.sort() }),
         Try(name: "lib, random", arr: random, call: { $0.sort() }),

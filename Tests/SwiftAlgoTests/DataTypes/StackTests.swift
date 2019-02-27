@@ -4,7 +4,7 @@ import XCTest
 final class StackTests: XCTestCase {
     
     func testStackBase() {
-        var stack = Stack<Int>()
+        let stack = Stack<Int>()
         
         XCTAssertTrue(stack.isEmpty)
         XCTAssertNil(stack.top)
@@ -27,7 +27,7 @@ final class StackTests: XCTestCase {
     func testStackBig() {
         let size = 10000
         
-        var stack = Stack<Int>()
+        let stack = Stack<Int>()
         
         (1...size).forEach { stack.push($0) }
         XCTAssertEqual(stack.top, size)
