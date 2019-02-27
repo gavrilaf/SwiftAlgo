@@ -1,23 +1,94 @@
 import Foundation
 
 struct BinaryHeap<E> {
+    public init(cmp: @escaping (E, E) -> Bool) {
+        self.isBefore = cmp
+        self.elements = []
+        self.count = 0
+    }
     
+    public init(array: [E], cmp: @escaping (E, E) -> Bool) {
+        self.isBefore = cmp
+        self.elements = array
+        self.count = elements.count
+        
+        if self.count > 1 {
+            elements.withUnsafeMutableBufferPointer { (buf) in
+                BinaryHeap.heapify(buffer: &buf, cmp: cmp)
+            }
+        }
+    }
+    
+    // MARK: Heap
+    
+    public mutating func push(_ e: E) {
+        if count < elements.count {
+            elements[count] = e
+        } else {
+            elements.append(e)
+        }
+        
+        count += 1
+        shiftUp(count-1)
+    }
+    
+    public mutating func pop() -> E? {
+        guard let p = top else { return nil }
+        
+        if count > 1 {
+            elements.swapAt(0, count-1)
+            count -= 1
+            shiftDown(0)
+        } else {
+            count -= 1
+        }
+        
+        return p
+    }
+    
+    public var top: E? {
+        return count == 0 ? nil : elements[0]
+    }
+    
+    public var isEmpty: Bool {
+        return size == 0
+    }
+    
+    public var size: Int {
+        return count
+    }
+    
+    // MARK: Utility
+    public mutating func clear() {
+        elements.removeAll()
+        count = 0
+    }
+    
+    // MARK:
+    private let isBefore: (E, E) -> Bool
+    
+    private var elements: [E]
+    private var count = 0
 }
 
 
 extension BinaryHeap {
     
-    static func sort(array: inout [E], cmp: @escaping (E, E) -> Bool) {
-        array.withUnsafeMutableBufferPointer { (buffer) in
-            heapify(buffer: &buffer, cmp: cmp)
-            for i in stride(from: buffer.count - 1, through: 1, by: -1) {
-                swap(&buffer[0], &buffer[i])
-                shiftDown(buffer: &buffer, index: 0, heapSize: i, cmp: cmp)
-            }
+    mutating func shiftUp(_ indx: Int) {
+        let cmp = isBefore
+        elements.withUnsafeMutableBufferPointer { buf in
+            BinaryHeap.shiftUp(buffer: &buf, index: indx, cmp: cmp)
         }
     }
     
-    // MARK:-
+    mutating func shiftDown(_ indx: Int) {
+        let cmp = isBefore
+        elements.withUnsafeMutableBufferPointer { buf in
+            BinaryHeap.shiftDown(buffer: &buf, index: indx, heapSize: count, cmp: cmp)
+        }
+    }
+    
+    // MARK:- Static heap unsafe helpers
     
     @inline(__always) static func parentIndex(of indx: Int) -> Int {
         return (indx - 1) / 2

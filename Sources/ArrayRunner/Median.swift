@@ -1,8 +1,12 @@
-//
-//  Median.swift
-//  ArrayRunner
-//
-//  Created by Eugen Fedchenko on 2/27/19.
-//
-
 import Foundation
+import SwiftAlgo
+
+struct MedianCalc {
+    mutating func nextMedian(for value: Int) -> Int {
+        return 0
+    }
+    
+
+}
+
+

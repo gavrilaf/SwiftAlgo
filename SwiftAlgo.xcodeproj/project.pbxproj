@@ -22,6 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		46A6FF0C2226EC3A00354043 /* Median.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A6FF0B2226EC3A00354043 /* Median.swift */; };
+		46A6FF0E22270A2C00354043 /* BinaryHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A6FF0D22270A2C00354043 /* BinaryHeapTests.swift */; };
 		OBJ_103 /* BinaryHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BinaryHeap.swift */; };
 		OBJ_104 /* Dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Dequeue.swift */; };
 		OBJ_105 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Queue.swift */; };
@@ -124,6 +125,7 @@
 
 /* Begin PBXFileReference section */
 		46A6FF0B2226EC3A00354043 /* Median.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Median.swift; sourceTree = "<group>"; };
+		46A6FF0D22270A2C00354043 /* BinaryHeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeapTests.swift; sourceTree = "<group>"; };
 		OBJ_10 /* BinaryHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
 		OBJ_11 /* Dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dequeue.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -295,6 +297,7 @@
 			children = (
 				OBJ_33 /* QueueTests.swift */,
 				OBJ_34 /* StackTests.swift */,
+				46A6FF0D22270A2C00354043 /* BinaryHeapTests.swift */,
 			);
 			path = DataTypes;
 			sourceTree = "<group>";
@@ -620,6 +623,7 @@
 				OBJ_139 /* QuickSortTests.swift in Sources */,
 				OBJ_140 /* TestCases.swift in Sources */,
 				OBJ_141 /* XCTestManifests.swift in Sources */,
+				46A6FF0E22270A2C00354043 /* BinaryHeapTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
