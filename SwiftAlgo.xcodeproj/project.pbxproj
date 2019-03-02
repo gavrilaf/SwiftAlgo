@@ -21,8 +21,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		46A6FF0C2226EC3A00354043 /* Median.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A6FF0B2226EC3A00354043 /* Median.swift */; };
 		46A6FF0E22270A2C00354043 /* BinaryHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A6FF0D22270A2C00354043 /* BinaryHeapTests.swift */; };
+		46DD6A9F2229812B000F13C5 /* MedianMaintenance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD6A9E2229812B000F13C5 /* MedianMaintenance.swift */; };
+		46DD6AA22229816F000F13C5 /* MedianMaintenanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD6AA12229816F000F13C5 /* MedianMaintenanceTests.swift */; };
 		OBJ_103 /* BinaryHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BinaryHeap.swift */; };
 		OBJ_104 /* Dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Dequeue.swift */; };
 		OBJ_105 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Queue.swift */; };
@@ -124,8 +125,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		46A6FF0B2226EC3A00354043 /* Median.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Median.swift; sourceTree = "<group>"; };
 		46A6FF0D22270A2C00354043 /* BinaryHeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeapTests.swift; sourceTree = "<group>"; };
+		46DD6A9E2229812B000F13C5 /* MedianMaintenance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianMaintenance.swift; sourceTree = "<group>"; };
+		46DD6AA12229816F000F13C5 /* MedianMaintenanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianMaintenanceTests.swift; sourceTree = "<group>"; };
 		OBJ_10 /* BinaryHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
 		OBJ_11 /* Dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dequeue.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -222,6 +224,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46DD6A9D222980ED000F13C5 /* Number */ = {
+			isa = PBXGroup;
+			children = (
+				46DD6A9E2229812B000F13C5 /* MedianMaintenance.swift */,
+			);
+			path = Number;
+			sourceTree = "<group>";
+		};
+		46DD6AA02229814B000F13C5 /* Number */ = {
+			isa = PBXGroup;
+			children = (
+				46DD6AA12229816F000F13C5 /* MedianMaintenanceTests.swift */,
+			);
+			path = Number;
+			sourceTree = "<group>";
+		};
 		OBJ_14 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,7 +266,6 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_25 /* main.swift */,
-				46A6FF0B2226EC3A00354043 /* Median.swift */,
 			);
 			name = ArrayRunner;
 			path = Sources/ArrayRunner;
@@ -283,6 +300,7 @@
 		OBJ_31 /* SwiftAlgoTests */ = {
 			isa = PBXGroup;
 			children = (
+				46DD6AA02229814B000F13C5 /* Number */,
 				OBJ_32 /* DataTypes */,
 				OBJ_35 /* Graph */,
 				OBJ_39 /* Sort */,
@@ -340,7 +358,7 @@
 			name = "SwiftPerfTool 0.1.1";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -352,7 +370,6 @@
 				OBJ_48 /* Dependencies */,
 				OBJ_57 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_50 /* SwiftPerfTool */ = {
@@ -395,6 +412,7 @@
 		OBJ_8 /* SwiftAlgo */ = {
 			isa = PBXGroup;
 			children = (
+				46DD6A9D222980ED000F13C5 /* Number */,
 				OBJ_9 /* DataTypes */,
 				OBJ_14 /* Graph */,
 				OBJ_20 /* Sort */,
@@ -563,7 +581,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_57 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -594,6 +612,7 @@
 				OBJ_108 /* Node.swift in Sources */,
 				OBJ_109 /* SCC.swift in Sources */,
 				OBJ_110 /* Transformation.swift in Sources */,
+				46DD6A9F2229812B000F13C5 /* MedianMaintenance.swift in Sources */,
 				OBJ_111 /* Traversal.swift in Sources */,
 				OBJ_112 /* Heap.swift in Sources */,
 				OBJ_113 /* Merge.swift in Sources */,
@@ -620,6 +639,7 @@
 				OBJ_136 /* GraphTransformationTests.swift in Sources */,
 				OBJ_137 /* HeapSortTests.swift in Sources */,
 				OBJ_138 /* MergeSortTests.swift in Sources */,
+				46DD6AA22229816F000F13C5 /* MedianMaintenanceTests.swift in Sources */,
 				OBJ_139 /* QuickSortTests.swift in Sources */,
 				OBJ_140 /* TestCases.swift in Sources */,
 				OBJ_141 /* XCTestManifests.swift in Sources */,
@@ -652,7 +672,6 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_69 /* main.swift in Sources */,
-				46A6FF0C2226EC3A00354043 /* Median.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -4,7 +4,7 @@ import XCTest
 final class BinaryHeapTests: XCTestCase {
 
     func testMaxBinaryHeap() {
-        var heap = BinaryHeap<Int>(cmp: { return $0 < $1 })
+        var heap = BinaryHeap<Int>(cmp: { $0 < $1 })
         
         heap.push(2)
         heap.push(1)
@@ -46,7 +46,7 @@ final class BinaryHeapTests: XCTestCase {
     }
     
     func testMinBinaryHeap() {
-        var heap = BinaryHeap<Int>(cmp: { return $0 > $1 })
+        var heap = BinaryHeap<Int>(cmp: { $0 > $1 })
         
         heap.push(2)
         heap.push(1)
@@ -66,7 +66,7 @@ final class BinaryHeapTests: XCTestCase {
     }
     
     func testBuildMinBinaryHeap() {
-        var heap = BinaryHeap<Int>(array: [4, 6, 190, 1, 12], cmp: { return $0 > $1 })
+        var heap = BinaryHeap<Int>(array: [4, 6, 190, 1, 12], cmp: { $0 > $1 })
         
         XCTAssertEqual(heap.pop(), 1)
         XCTAssertEqual(heap.pop(), 4)

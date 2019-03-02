@@ -10,6 +10,9 @@ public func allTests() -> [XCTestCaseEntry] {
         testCase(StackTests.allTests),
         testCase(BinaryHeapTests.allTests),
         testCase(GraphBaseTests.allTests),
+        testCase(GraphSCCTests.allTests),
+        testCase(GraphTransformationTests.allTests),
+        testCase(MedianMaintenanceTests.allTests),
     ]
 }
 #endif

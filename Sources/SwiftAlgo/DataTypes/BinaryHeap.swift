@@ -1,6 +1,6 @@
 import Foundation
 
-struct BinaryHeap<E> {
+public struct BinaryHeap<E> {
     public init(cmp: @escaping (E, E) -> Bool) {
         self.isBefore = cmp
         self.elements = []
