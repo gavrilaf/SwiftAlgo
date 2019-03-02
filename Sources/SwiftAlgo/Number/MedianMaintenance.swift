@@ -12,6 +12,8 @@
 
 public struct MedianMaintenance {
     
+    public init() {}
+    
     /*
      For the first two elements add smaller one to the maxHeap on the left, and bigger one to the minHeap on the right. Then process stream data one by one,
      
