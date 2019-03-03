@@ -68,6 +68,7 @@ extension Graph: Equatable {
 // MARK: -
 extension Int: VertexProtocol {}
 
+// MARK: -
 public struct StaticEdge: EdgeProtocol {
     public static func == (lhs: StaticEdge, rhs: StaticEdge) -> Bool { return true }
 }
