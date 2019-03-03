@@ -48,6 +48,10 @@ public class Graph<V: VertexProtocol, E: EdgeProtocol> {
         return Set(nodes.values)
     }
     
+    public var nodesCount: Int {
+        return nodes.count
+    }
+    
     public func node(byVertex vertex: V) -> Node<V, E>? {
         return nodes[vertex.hashValue]
     }

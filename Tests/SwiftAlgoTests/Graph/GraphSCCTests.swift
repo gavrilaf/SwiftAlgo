@@ -39,4 +39,12 @@ final class GraphSCCTests: XCTestCase {
         let scc = g.buildSCC().map { return $0.count }
         XCTAssertEqual(scc, [3, 1, 1])
     }
+    
+    static var allTests = [
+        ("testSCC1", testSCC1),
+        ("testSCC2", testSCC2),
+        ("testSCC3", testSCC3),
+        ("testSCC4", testSCC4),
+        ("testSCC5", testSCC5),
+    ]
 }

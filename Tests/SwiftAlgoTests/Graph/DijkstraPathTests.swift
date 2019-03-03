@@ -3,7 +3,7 @@ import XCTest
 
 final class DijkstraPathTests: XCTestCase {
     
-    func testDijkstraPath() {
+    func testDijkstraPath1() {
         let g = IntEdgeGraph<Int>(edges: [
             (1, 2, 1), (1, 8, 2),
             (2, 1, 1), (2, 3, 1),
@@ -30,4 +30,32 @@ final class DijkstraPathTests: XCTestCase {
         
         XCTAssertEqual(actual, expected)
     }
+    
+    func testDijkstraPath2() {
+        let g = IntEdgeGraph<Int>(edges: [
+            (0, 1, 9),
+            (0, 2, 6),
+            (0, 3, 5),
+            (0, 4, 3),
+            (2, 1, 2),
+            (2, 3, 4)
+        ])
+        
+        let actual = g.buildDijkstraPathes(from: 0)
+        
+        let expected: [Int: Int] = [
+            0 : 0,
+            1 : 8,
+            2 : 6,
+            3 : 5,
+            4 : 3
+        ]
+        
+        XCTAssertEqual(actual, expected)
+    }
+    
+    static var allTests = [
+        ("testDijkstraPath1", testDijkstraPath1),
+        ("testDijkstraPath2", testDijkstraPath2),
+    ]
 }

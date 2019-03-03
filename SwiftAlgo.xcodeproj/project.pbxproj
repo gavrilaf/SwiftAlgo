@@ -22,7 +22,7 @@
 
 /* Begin PBXBuildFile section */
 		460ED8B8222C4B1200A19024 /* DijkstraPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460ED8B7222C4B1200A19024 /* DijkstraPath.swift */; };
-		460ED8BA222C4B4600A19024 /* DijkstraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460ED8B9222C4B4600A19024 /* DijkstraTests.swift */; };
+		460ED8BA222C4B4600A19024 /* DijkstraPathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460ED8B9222C4B4600A19024 /* DijkstraPathTests.swift */; };
 		460ED8BC222C4E9700A19024 /* WeightedGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460ED8BB222C4E9700A19024 /* WeightedGraph.swift */; };
 		46A6FF0E22270A2C00354043 /* BinaryHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A6FF0D22270A2C00354043 /* BinaryHeapTests.swift */; };
 		46DD6A9F2229812B000F13C5 /* MedianMaintenance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD6A9E2229812B000F13C5 /* MedianMaintenance.swift */; };
@@ -129,7 +129,7 @@
 
 /* Begin PBXFileReference section */
 		460ED8B7222C4B1200A19024 /* DijkstraPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraPath.swift; sourceTree = "<group>"; };
-		460ED8B9222C4B4600A19024 /* DijkstraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraTests.swift; sourceTree = "<group>"; };
+		460ED8B9222C4B4600A19024 /* DijkstraPathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraPathTests.swift; sourceTree = "<group>"; };
 		460ED8BB222C4E9700A19024 /* WeightedGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightedGraph.swift; sourceTree = "<group>"; };
 		46A6FF0D22270A2C00354043 /* BinaryHeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeapTests.swift; sourceTree = "<group>"; };
 		46DD6A9E2229812B000F13C5 /* MedianMaintenance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianMaintenance.swift; sourceTree = "<group>"; };
@@ -334,7 +334,7 @@
 				OBJ_36 /* GraphBaseTests.swift */,
 				OBJ_37 /* GraphSCCTests.swift */,
 				OBJ_38 /* GraphTransformationTests.swift */,
-				460ED8B9222C4B4600A19024 /* DijkstraTests.swift */,
+				460ED8B9222C4B4600A19024 /* DijkstraPathTests.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -649,7 +649,7 @@
 				OBJ_135 /* GraphSCCTests.swift in Sources */,
 				OBJ_136 /* GraphTransformationTests.swift in Sources */,
 				OBJ_137 /* HeapSortTests.swift in Sources */,
-				460ED8BA222C4B4600A19024 /* DijkstraTests.swift in Sources */,
+				460ED8BA222C4B4600A19024 /* DijkstraPathTests.swift in Sources */,
 				OBJ_138 /* MergeSortTests.swift in Sources */,
 				46DD6AA22229816F000F13C5 /* MedianMaintenanceTests.swift in Sources */,
 				OBJ_139 /* QuickSortTests.swift in Sources */,
