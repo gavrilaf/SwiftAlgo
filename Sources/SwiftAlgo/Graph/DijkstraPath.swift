@@ -2,21 +2,21 @@ import Foundation
 
 extension WeightedGraph  {
     
-    public struct VertexPath {
-        let vertex: V
-        let cost: Int
+    public struct VertexPath: Equatable {
+        public let vertex: V
+        public let cost: Int
     }
     
-    public func buildDijkstraPathes(from vertex: V) -> Dictionary<V, Int> {
-        var distances = [V: Int]()
+    public func buildDijkstraPathes(from vertex: V) -> [VertexPath] {
+        var distances = [V: VertexPath]()
         var settled = Set<V>()
         var heap = BinaryHeap<VertexPath> { $0.cost > $1.cost }
         
         allNodes.forEach {
-            distances[$0.vertex] = Int.max
+            distances[$0.vertex] = VertexPath(vertex: $0.vertex, cost: Int.max)
         }
         
-        distances[vertex] = 0
+        distances[vertex] = VertexPath(vertex: vertex, cost: 0)
         
         heap.push(VertexPath(vertex: vertex, cost: 0))
         
@@ -26,18 +26,18 @@ extension WeightedGraph  {
             
             // process all neighbours
             let currentNode = node(byVertex: current.vertex)
-            currentNode?.edges.forEach { (neighbour) in
-                if !settled.contains(neighbour.end.vertex) {
-                    let newDistance = current.cost + neighbour.edge.weight
-                    if newDistance < distances[neighbour.end.vertex]! {
-                        distances[neighbour.end.vertex] = newDistance
+            currentNode?.edges.forEach { (vertex, edge) in
+                if !settled.contains(vertex) {
+                    let newDistance = current.cost + edge.weight
+                    if newDistance < distances[vertex]!.cost {
+                        distances[vertex] = VertexPath(vertex: vertex, cost: newDistance)
                     }
                     
-                    heap.push(VertexPath(vertex: neighbour.end.vertex, cost: distances[neighbour.end.vertex]!))
+                    heap.push(VertexPath(vertex: vertex, cost: newDistance))
                 }
             }
         }
         
-        return distances
+        return distances.values.map { $0 }
     }
 }

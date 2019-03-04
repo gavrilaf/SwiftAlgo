@@ -4,16 +4,30 @@ public class Node<V: VertexProtocol, E: EdgeProtocol> {
     
     // MARK: -
     public struct AdjacentSequence: Sequence, IteratorProtocol {
-        public mutating func next() -> Node<V, E>? {
+        public mutating func next() -> Node? {
             return it.next()?.end
         }
         
-        init(_ edges: [Edge]) { it = edges.makeIterator() }
-        var it: IndexingIterator<Array<Edge>>
+        init(_ adjs: [Adjacent]) { it = adjs.makeIterator() }
+        var it: IndexingIterator<Array<Adjacent>>
     }
     
-    public var adjacents: Node<V, E>.AdjacentSequence {
-        return AdjacentSequence(edges)
+    public struct EdgesSequence: Sequence, IteratorProtocol {
+        public mutating func next() -> (V, E)? {
+            return it.next().flatMap { (edge) -> (V, E)? in return (edge.end.vertex, edge.edge) }
+        }
+        
+        init(_ adjs: [Adjacent]) { it = adjs.makeIterator() }
+        var it: IndexingIterator<Array<Adjacent>>
+    }
+    
+    // MARK: -
+    public var adjacents: AdjacentSequence {
+        return AdjacentSequence(adjs)
+    }
+    
+    public var edges: EdgesSequence {
+        return EdgesSequence(adjs)
     }
     
     public let vertex: V
@@ -24,10 +38,11 @@ public class Node<V: VertexProtocol, E: EdgeProtocol> {
     }
     
     func addEdge(to node: Node<V, E>, edge: E) {
-        edges.append(Edge(edge: edge, end: node))
+        adjs.append(Adjacent(edge: edge, end: node))
     }
     
-    struct Edge: Hashable {
+    // MARK: - private
+    struct Adjacent: Hashable {
         let edge: E
         let end: Node
         
@@ -37,8 +52,7 @@ public class Node<V: VertexProtocol, E: EdgeProtocol> {
         }
     }
     
-    // MARK:
-    var edges = [Edge]()
+    var adjs = [Adjacent]()
 }
 
 extension Node: Hashable {
@@ -50,9 +64,9 @@ extension Node: Hashable {
 extension Node: Equatable {
     public static func == (lhs: Node<V, E>, rhs: Node<V, E>) -> Bool {
         if lhs.vertex == rhs.vertex {
-            let lhsEdges = Set<Int>(lhs.edges.map { return $0.hashValue })
-            let rhsEdges = Set<Int>(rhs.edges.map { return $0.hashValue })
-            return lhsEdges == rhsEdges
+            let lhsAdjs = Set<Int>(lhs.adjs.map { return $0.hashValue })
+            let rhsAdjs = Set<Int>(rhs.adjs.map { return $0.hashValue })
+            return lhsAdjs == rhsAdjs
         }
         
         return false

@@ -20,9 +20,9 @@ extension Graph {
                         }
                     } else { // first time seen
                         colors[current.vertex] = 1
-                        current.edges.forEach { (edge) in
-                            if !colors.keys.contains(edge.end.vertex) {
-                                stack.push(edge.end)
+                        current.adjacents.forEach { (node) in
+                            if !colors.keys.contains(node.vertex) {
+                                stack.push(node)
                             }
                         }
                     }
@@ -59,9 +59,9 @@ extension Graph {
                         scc.append(current.vertex)
                     }
                     
-                    current.edges.forEach { (edge) in
-                        if !visited.contains(edge.end.vertex) {
-                            stack.push(edge.end)
+                    current.adjacents.forEach { (node) in
+                        if !visited.contains(node.vertex) {
+                            stack.push(node)
                         }
                     }
                 }

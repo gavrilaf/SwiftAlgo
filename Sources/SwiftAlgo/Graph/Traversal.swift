@@ -25,10 +25,10 @@ public class BFS<V: VertexProtocol, E: EdgeProtocol> : Sequence, IteratorProtoco
     public func next() -> V? {
         guard let current = queue.pop() else { return nil }
         
-        current.edges.forEach { (edge) in
-            if !visited.contains(edge.end.vertex) {
-                visited.insert(edge.end.vertex)
-                queue.push(edge.end)
+        current.adjacents.forEach { (node) in
+            if !visited.contains(node.vertex) {
+                visited.insert(node.vertex)
+                queue.push(node)
             }
         }
         
@@ -59,9 +59,9 @@ public class DFS<V: VertexProtocol, E: EdgeProtocol> : Sequence, IteratorProtoco
                 continue
             }
             
-            current.edges.reversed().forEach { (edge) in
-                if !visited.contains(edge.end.vertex) {
-                    stack.push(edge.end)
+            current.adjacents.forEach { (node) in
+                if !visited.contains(node.vertex) {
+                    stack.push(node)
                 }
             }
             

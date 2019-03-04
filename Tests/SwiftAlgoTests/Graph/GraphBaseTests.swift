@@ -47,7 +47,7 @@ final class GraphBaseTests: XCTestCase {
     
     func testSimpleDFS() {
         let nodes = subject.dfs(start: 1).map { return $0 }
-        let expected = [1, 2, 4, 3]
+        let expected = [1, 3, 4, 2]
         
         XCTAssertEqual(nodes, expected)
     }
