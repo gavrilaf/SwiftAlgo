@@ -17,6 +17,7 @@ public func allTests() -> [XCTestCaseEntry] {
         testCase(DijkstraPathTests.allTests),
         
         testCase(MedianMaintenanceTests.allTests),
+        testCase(DistinctSumCountTests.allTests),
     ]
 }
 #endif
