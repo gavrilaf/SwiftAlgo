@@ -18,6 +18,8 @@ public func allTests() -> [XCTestCaseEntry] {
         
         testCase(MedianMaintenanceTests.allTests),
         testCase(DistinctSumCountTests.allTests),
+        
+        testCase(CollectionSplitTests.allTests),
     ]
 }
 #endif
