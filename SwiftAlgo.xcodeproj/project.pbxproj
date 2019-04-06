@@ -27,6 +27,8 @@
 		46272381224F673800B9D698 /* GreedySchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46272380224F673800B9D698 /* GreedySchedule.swift */; };
 		46272383224F675400B9D698 /* GreedyScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46272382224F675400B9D698 /* GreedyScheduleTests.swift */; };
 		46A6FF0E22270A2C00354043 /* BinaryHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A6FF0D22270A2C00354043 /* BinaryHeapTests.swift */; };
+		46DCC4C422586C0100D34147 /* MST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DCC4C322586C0100D34147 /* MST.swift */; };
+		46DCC4C622586E2C00D34147 /* MSTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DCC4C522586E2C00D34147 /* MSTTests.swift */; };
 		46DD6A9F2229812B000F13C5 /* MedianMaintenance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD6A9E2229812B000F13C5 /* MedianMaintenance.swift */; };
 		46DD6AA22229816F000F13C5 /* MedianMaintenanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD6AA12229816F000F13C5 /* MedianMaintenanceTests.swift */; };
 		OBJ_103 /* BinaryHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* BinaryHeap.swift */; };
@@ -136,6 +138,8 @@
 		46272380224F673800B9D698 /* GreedySchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreedySchedule.swift; sourceTree = "<group>"; };
 		46272382224F675400B9D698 /* GreedyScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreedyScheduleTests.swift; sourceTree = "<group>"; };
 		46A6FF0D22270A2C00354043 /* BinaryHeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeapTests.swift; sourceTree = "<group>"; };
+		46DCC4C322586C0100D34147 /* MST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MST.swift; sourceTree = "<group>"; };
+		46DCC4C522586E2C00D34147 /* MSTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSTTests.swift; sourceTree = "<group>"; };
 		46DD6A9E2229812B000F13C5 /* MedianMaintenance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianMaintenance.swift; sourceTree = "<group>"; };
 		46DD6AA12229816F000F13C5 /* MedianMaintenanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianMaintenanceTests.swift; sourceTree = "<group>"; };
 		OBJ_10 /* BinaryHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryHeap.swift; sourceTree = "<group>"; };
@@ -262,6 +266,7 @@
 				OBJ_19 /* Traversal.swift */,
 				460ED8B7222C4B1200A19024 /* DijkstraPath.swift */,
 				460ED8BB222C4E9700A19024 /* WeightedGraph.swift */,
+				46DCC4C322586C0100D34147 /* MST.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -341,6 +346,7 @@
 				OBJ_37 /* GraphSCCTests.swift */,
 				OBJ_38 /* GraphTransformationTests.swift */,
 				460ED8B9222C4B4600A19024 /* DijkstraPathTests.swift */,
+				46DCC4C522586E2C00D34147 /* MSTTests.swift */,
 			);
 			path = Graph;
 			sourceTree = "<group>";
@@ -624,6 +630,7 @@
 				OBJ_104 /* Dequeue.swift in Sources */,
 				OBJ_105 /* Queue.swift in Sources */,
 				OBJ_106 /* Stack.swift in Sources */,
+				46DCC4C422586C0100D34147 /* MST.swift in Sources */,
 				OBJ_107 /* Graph.swift in Sources */,
 				460ED8B8222C4B1200A19024 /* DijkstraPath.swift in Sources */,
 				OBJ_108 /* Node.swift in Sources */,
@@ -652,6 +659,7 @@
 			files = (
 				46272383224F675400B9D698 /* GreedyScheduleTests.swift in Sources */,
 				OBJ_132 /* QueueTests.swift in Sources */,
+				46DCC4C622586E2C00D34147 /* MSTTests.swift in Sources */,
 				OBJ_133 /* StackTests.swift in Sources */,
 				OBJ_134 /* GraphBaseTests.swift in Sources */,
 				OBJ_135 /* GraphSCCTests.swift in Sources */,
