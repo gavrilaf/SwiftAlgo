@@ -18,9 +18,8 @@ final class MSTTests: XCTestCase {
     func testMSTPrim() {
         cases.forEach { (ts) in
             let gr = IntEdgeGraph<Int>(edges: ts.edges)
-            let mst = gr.buildMSTPrim()
-            let cost = mst.edgesCost
-            
+            let (_, cost) = gr.buildMSTPrim()
+
             XCTAssertEqual(cost, ts.cost)
         }
     }

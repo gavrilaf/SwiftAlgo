@@ -79,13 +79,44 @@ func runDijkstraPath(_ fn: String) {
     print("Distances: \(pp.joined(separator: ","))")
 }
 
+func runMSTBuilder(_ fn: String) {
+    let graph = IntEdgeGraph<Int>()
+    
+    print("readFile: \(fn)")
+    let data = try! String(contentsOfFile: fn, encoding: .ascii)
+    print("Splitting by lines")
+    let lines = data.components(separatedBy: .newlines)
+    
+    lines[1...].forEach { (line) in
+        let s = line.trimmingCharacters(in: .whitespaces)
+        if !s.isEmpty {
+            let components = s.components(separatedBy: .whitespaces)
+            let from = Int(components[0])!
+            let to = Int(components[1])!
+            let weight = Int(components[2])!
+            
+            graph.addEdge(from: from, to: to, weight: weight)
+        }
+    }
+    
+    print("Vertexes count: \(graph.nodesCount)")
+    print("Build MST using Prim's algo")
+    
+    let (_, cost) = graph.buildMSTPrim() // We don'ts care about tree, check only cost
+    
+    print("MST cost: \(cost)")
+}
+
+
 print("GraphRunner")
 
 //runSCCBuilder("../../../test-data/scc/scc.txt")
 //runSCCBuilder("../../../test-data/scc/test/input_mostlyCycles_65_320000.txt")
 
 //runDijkstraPath("../../../test-data/dijkstra/test/input_random_1_4.txt")
-runDijkstraPath("../../../test-data/dijkstra/dijkstraData.txt")
+//runDijkstraPath("../../../test-data/dijkstra/dijkstraData.txt")
+
+runMSTBuilder("../../../test-data/mst-prim/test/input_random_1_10.txt")
 
 
 
